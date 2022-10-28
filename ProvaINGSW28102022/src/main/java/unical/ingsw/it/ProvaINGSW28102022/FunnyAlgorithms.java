@@ -69,6 +69,7 @@ public class FunnyAlgorithms {
 	 * @return
 	 * @throws UnsupportedOperationException
 	 */
+	
 	public int stringToIntConverter(String number) throws UnsupportedOperationException {
 		//throw new UnsupportedOperationException("To be implemented");
 		
