@@ -70,7 +70,18 @@ public class FunnyAlgorithms {
 	 * @throws UnsupportedOperationException
 	 */
 	public int stringToIntConverter(String number) throws UnsupportedOperationException {
-		throw new UnsupportedOperationException("To be implemented");
+		//throw new UnsupportedOperationException("To be implemented");
+		
+		int n = Integer.parseInt(number);
+		
+		if (n < -32768 || n > 32768) {
+			throw new IllegalArgumentException("Range non rispettato");
+		}
+		
+		if(n!=0) {
+			throw new IllegalArgumentException("Errore! Numeri reali non ammessi!");
+		}
+		return n;
 	}
 
 }
